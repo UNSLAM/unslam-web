@@ -6,6 +6,7 @@ section {
 }
 
 h1 {
+	color: #ff4c4c;
   font-weight: 600;
   padding-bottom: 20px;
 }
@@ -14,10 +15,15 @@ p.name {
   font-size: 18px;
   font-weight: 600;
   padding-top: 10px;
+	text-transform: uppercase;
+	font-family: 'Sarabun Extra Bold Italic';
+	color:#ff4c4c
 }
 
 p.description {
-  font-size: 14px;
+  font-size: 16px;
+	font-family: 'Sarabun';
+	color:#ff4c4c
 }
 
 p {

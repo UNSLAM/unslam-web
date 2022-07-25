@@ -1,4 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: Sarabun;
+  src: url(assets/fonts/Sarabun-Regular.ttf) format("opentype");
+}
+
+@font-face {
+  font-family: 'Sarabun Extra Bold Italic';
+  src: url(assets/fonts/Sarabun-ExtraBoldItalic.ttf) format("opentype");
+}
+
 body {
   font-family: Sarabun;
+}
+
+h1 {
+  font-weight: 600;
+  padding-bottom: 20px;
+	font-family: 'Sarabun Extra Bold Italic';
 }
