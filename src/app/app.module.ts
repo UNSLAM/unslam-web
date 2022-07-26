@@ -7,6 +7,8 @@ import { FooterComponent } from './shared/footer/footer.component';
 import { IntroComponent } from './intro/intro.component';
 import { BannerComponent } from './banner/banner.component';
 import { MembersComponent } from './members/members.component';
+import { ContactComponent } from './contact/contact.component';
+import { ReposComponent } from './repos/repos.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { MembersComponent } from './members/members.component';
     FooterComponent,
     IntroComponent,
     BannerComponent,
-    MembersComponent
+    MembersComponent,
+    ContactComponent,
+    ReposComponent
   ],
   imports: [
     BrowserModule

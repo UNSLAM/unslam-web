@@ -4,19 +4,16 @@ section {
 
 .carousel-caption {
   background-color: black;
-  border-radius: 10px;
-  opacity: 0.8;
-  padding: 10px;
+  border-radius: 30px;
+  opacity: 0.5;
+  /* padding: 10px; */
+	height: auto;
   top: 50%;
   transform: translateY(-50%);
 }
 
-h1 {
-  font-size: 72px;
-}
-
-p {
-  font-size: 48px;
+.carousel-caption h1{
+  opacity: 1;
 }
 
 @media (min-width: 1280px) {
