@@ -35,3 +35,9 @@ p {
     width: 80%;
     height: auto;
 }
+
+@media (min-width: 992px) {
+  .col {
+    flex: 1;
+  }
+}
