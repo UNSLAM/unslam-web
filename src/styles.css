@@ -5,6 +5,11 @@
 }
 
 @font-face {
+  font-family: 'Sarabun Bold';
+  src: url(assets/fonts/Sarabun-ExtraBold.ttf) format("opentype");
+}
+
+@font-face {
   font-family: 'Sarabun Extra Bold Italic';
   src: url(assets/fonts/Sarabun-ExtraBoldItalic.ttf) format("opentype");
 }
