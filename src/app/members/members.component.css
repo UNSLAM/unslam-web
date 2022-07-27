@@ -43,3 +43,15 @@ img.member{
     flex: 1;
   }
 }
+
+img.business {
+	width:40%;
+	height:auto
+}
+
+@media (max-width: 768px) {
+  img.business {
+		width:70%;
+		height:auto
+	}
+}

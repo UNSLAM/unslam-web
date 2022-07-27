@@ -2,8 +2,13 @@ section {
   font-family: Sarabun;
   padding: 30px 0px;
 	background-color: #ff4c4c;
-	/* background-color: #2F2F2F; */
   color: #2F2F2F;
+}
+
+@media (max-width: 768px) {
+	a button {
+		width: 100%;
+	}
 }
 
 button {
