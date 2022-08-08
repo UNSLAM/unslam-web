@@ -8,7 +8,7 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 ## Github Pages Deployment
 
-Run `ng deploy --base-href=/unslam-web/` and it will automatically build the web
+Run `ng deploy --cname=unslam.com.ar` and it will automatically build the web
 on the gh-pages branch and deploy it.
 
 ## Code scaffolding
