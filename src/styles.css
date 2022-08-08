@@ -1,4 +1,15 @@
-/* You can add global styles to this file, and also import other style files */
+/*#region Root*/
+
+:root {
+  --primary-color-black: #000000;
+  --primary-color-sunset-orange: #ff4c4c;
+  --primary-color-night-rider: #2f2f2f;
+}
+
+/*#endregion Root*/
+
+/*#region Fonts*/
+
 @font-face {
   font-family: Sarabun;
   src: url(assets/fonts/Sarabun-Regular.ttf) format("opentype");
@@ -23,3 +34,5 @@ h1 {
   padding-bottom: 20px;
 	font-family: 'Sarabun Extra Bold Italic';
 }
+
+/*#endregion Fonts*/

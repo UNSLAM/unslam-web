@@ -1,32 +1,44 @@
-section {
-  background-color: black;
-}
-
-.carousel-caption {
-  background-color: black;
-  border-radius: 30px;
-  opacity: 0.5;
-  /* padding: 10px; */
-	height: auto;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
 @media (max-width: 768px) {
-	.carousel-caption {
-		background-color: black;
-		border-radius: 30px;
-		opacity: 0.5;
-		height: 160px;
-	}
-}
-
-.carousel-caption h1{
-  opacity: 1;
+  .carousel-caption {
+    background-color: var(--primary-color-black);
+    border-radius: 30px;
+    opacity: 0.5;
+    height: 160px;
+  }
 }
 
 @media (min-width: 1280px) {
   video {
     margin-bottom: -320px;
   }
+}
+
+section {
+  height: 88vh;
+  background-color: var(--primary-color-black);
+}
+
+#carouselExampleCaptions {
+  height: 100%;
+}
+
+#carouselExampleCaptions > .carousel-inner {
+  height: 100%;
+}
+
+#carouselExampleCaptions > .carousel-inner > .carousel-item {
+  height: 100%;
+}
+
+.carousel-caption {
+  background-color: var(--primary-color-black);
+  border-radius: 30px;
+  opacity: 0.5;
+  height: auto;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.carousel-caption h1 {
+  opacity: 1;
 }

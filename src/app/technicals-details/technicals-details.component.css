@@ -1,10 +1,5 @@
 section {
   font-family: Sarabun;
   padding: 30px 0px;
-  background-color: var(--primary-color-sunset-orange);
   color: var(--primary-color-night-rider);
-}
-
-p {
-  font-family: "Sarabun";
 }

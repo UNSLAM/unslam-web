@@ -1,12 +1,18 @@
+@media (min-width: 992px) {
+  .column {
+    flex: 1;
+  }
+}
+
 section {
   font-family: Sarabun;
   padding: 30px 0px;
-  background-color: #2F2F2F;
+  background-color: #2f2f2f;
   color: #fff;
 }
 
 h1 {
-	color: #ff4c4c;
+  color: #ff4c4c;
   font-weight: 600;
   padding-bottom: 20px;
 }
@@ -15,43 +21,25 @@ p.name {
   font-size: 18px;
   font-weight: 600;
   padding-top: 10px;
-	text-transform: uppercase;
-	font-family: 'Sarabun Extra Bold Italic';
-	color:#ff4c4c
+  text-transform: uppercase;
+  font-family: "Sarabun Extra Bold Italic";
+  color: var(--primary-color-sunset-orange);
 }
 
 p.description {
   font-size: 16px;
-	font-family: 'Sarabun';
-	color:#ff4c4c
+  font-family: "Sarabun";
+  color: var(--primary-color-sunset-orange);
 }
 
 p {
   font-size: 24px;
 }
 
-img.member{
-    border-radius: 100%;
-    width: 90%;
-    height: 80%;
-		-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-  	filter: grayscale(100%);
-}
-
-@media (min-width: 992px) {
-  .col {
-    flex: 1;
-  }
-}
-
-img.business {
-	width:40%;
-	height:auto
-}
-
-@media (max-width: 768px) {
-  img.business {
-		width:70%;
-		height:auto
-	}
+img.member {
+  border-radius: 100%;
+  width: 150px;
+  height: 150px;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
 }

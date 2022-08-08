@@ -8,7 +8,9 @@ import { IntroComponent } from './intro/intro.component';
 import { BannerComponent } from './banner/banner.component';
 import { MembersComponent } from './members/members.component';
 import { ContactComponent } from './contact/contact.component';
-import { ReposComponent } from './repos/repos.component';
+import { ReposComponent } from './technicals-details/repos/repos.component';
+import { TechnicalsDetailsComponent } from './technicals-details/technicals-details.component';
+import { TechnologiesComponent } from './technicals-details/technologies/technologies.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { ReposComponent } from './repos/repos.component';
     BannerComponent,
     MembersComponent,
     ContactComponent,
-    ReposComponent
+    ReposComponent,
+    TechnicalsDetailsComponent,
+    TechnologiesComponent
   ],
   imports: [
     BrowserModule

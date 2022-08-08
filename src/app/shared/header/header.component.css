@@ -1,3 +1,12 @@
 a {
-  font-family: 'Sarabun Extra Bold Italic'
+  font-family: "Sarabun Extra Bold Italic";
+}
+
+
+/* where collapsed*/
+#collapse
+{
+  position: absolute;
+  z-index: 1;
+  top: 12vh;
 }
