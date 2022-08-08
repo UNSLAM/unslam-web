@@ -27,6 +27,7 @@
 
 body {
   font-family: Sarabun;
+  overflow-x: hidden;
 }
 
 h1 {

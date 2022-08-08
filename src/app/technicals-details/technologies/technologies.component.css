@@ -1,4 +1,9 @@
 .technology {
-    width: auto;
-    height: 256px;
+    max-width: 128px;
+    max-height: 128px;
+}
+
+section {
+  color: white;
+  background-color: var(--primary-color-night-rider);
 }
