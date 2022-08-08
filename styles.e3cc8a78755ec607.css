@@ -1,4 +1,4 @@
-@charset "UTF-8";@font-face{font-family:Sarabun;src:url(Sarabun-Regular.acd57112361b53c6.ttf) format("opentype")}@font-face{font-family:Sarabun Bold;src:url(Sarabun-ExtraBold.c910991e96a3087e.ttf) format("opentype")}@font-face{font-family:Sarabun Extra Bold Italic;src:url(Sarabun-ExtraBoldItalic.9f3919f52aa00e37.ttf) format("opentype")}body{font-family:Sarabun}h1{font-weight:600;padding-bottom:20px;font-family:Sarabun Extra Bold Italic}/*!
+@charset "UTF-8";:root{--primary-color-black: #000000;--primary-color-sunset-orange: #ff4c4c;--primary-color-night-rider: #2f2f2f}@font-face{font-family:Sarabun;src:url(Sarabun-Regular.acd57112361b53c6.ttf) format("opentype")}@font-face{font-family:Sarabun Bold;src:url(Sarabun-ExtraBold.c910991e96a3087e.ttf) format("opentype")}@font-face{font-family:Sarabun Extra Bold Italic;src:url(Sarabun-ExtraBoldItalic.9f3919f52aa00e37.ttf) format("opentype")}body{font-family:Sarabun;overflow-x:hidden}h1{font-weight:600;padding-bottom:20px;font-family:Sarabun Extra Bold Italic}/*!
  * Bootstrap  v5.2.0 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
  * Copyright 2011-2022 Twitter, Inc.
