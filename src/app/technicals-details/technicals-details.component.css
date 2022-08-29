@@ -4,3 +4,7 @@ section {
   color: white;
   background-color: var(--primary-color-night-rider);
 }
+
+h1 {
+	color: var(--primary-color-sunset-orange);
+}

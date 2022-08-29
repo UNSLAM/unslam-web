@@ -33,3 +33,7 @@ button {
   text-transform: uppercase;
   font-family: "Sarabun Extra Bold Italic";
 }
+
+h1 {
+	color: var(--primary-color-sunset-orange);
+}
