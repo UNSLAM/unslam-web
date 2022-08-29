@@ -11,6 +11,7 @@ import { ContactComponent } from './contact/contact.component';
 import { ReposComponent } from './technicals-details/repos/repos.component';
 import { TechnicalsDetailsComponent } from './technicals-details/technicals-details.component';
 import { TechnologiesComponent } from './technicals-details/technologies/technologies.component';
+import { CommercialVideoComponent } from './commercial-video/commercial-video.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { TechnologiesComponent } from './technicals-details/technologies/technol
     ContactComponent,
     ReposComponent,
     TechnicalsDetailsComponent,
-    TechnologiesComponent
+    TechnologiesComponent,
+    CommercialVideoComponent
   ],
   imports: [
     BrowserModule
