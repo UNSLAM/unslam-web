@@ -31,9 +31,9 @@ section {
 }
 
 .carousel-caption {
-  background-color: var(--primary-color-black);
+  background-color: rgba(0, 0, 0, 0.5);
   border-radius: 30px;
-  opacity: 0.5;
+  opacity: 1;
   height: auto;
   top: 50%;
   transform: translateY(-50%);
